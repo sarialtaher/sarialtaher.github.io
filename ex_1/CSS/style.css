@@ -1,5 +1,244 @@
-body {
-	background-color: #FFEAE4;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} 
+
+#bannerimage {
+  width: 100%;
+  background-image: url(http://i.imgur.com/LR7IMU3.jpg);
+  height: 405px;
+  background-color: white;
+  background-position: center;
 }
 
-`
+#header {
+	padding: 1em;
+	font-family: 'Open Sans', bold;
+	font-size: 92px;
+	text-align: center;
+	color: #8f5c49;
+	border: solid 10px;
+
+
+}
+
+
+body {
+	background-color: #fbf7f7;
+
+}
+
+ul {
+	text-align: center;
+	padding: 10px
+	width: 960px;
+	margin: 10px auto;
+	font-family: 'Slabo 27px', serif;
+}
+
+li{
+	display: inline;
+}
+
+#image { 
+	margin: auto;
+	padding: 10%;
+
+}
+
+	#h1 { 
+	   position: relative; 
+		bottom: 9em;
+	  	left: 12em;
+	 	width: 8em;
+	  	height: 2em; 
+	  	font-family: 'Open Sans', bold;
+	  	font-size: 350%;
+	  	color: #8f5c49;
+  	
+}
+
+		#caption1 {
+			color: #bda599;
+			margin-right: 65%;
+			font-family: 'Slabo 27px', serif;
+			position: relative;
+			bottom: 7em;
+}
+
+			 #panel {
+			    margin-left: 40%;
+			    margin-right: 30%;
+			    position: relative; 
+				bottom: 15em;
+			  	left: 20em;
+			 	width: 20em;
+			  	height: 2em; 
+			  	font-size: 120%
+			  	font-family: 'Slabo 27px', serif;
+			  	background: #fbf7f7;
+			  	height: 20em;
+
+			  	
+
+}
+
+span {
+	color: #8f5c49
+	padding: 100%;
+ 	
+ }
+
+#image2 { 
+	margin: auto;
+	padding: 30%;
+	position: relative;
+	bottom: 28em;
+
+}
+
+	 #h2 { 
+	   position: relative; 
+		bottom: 9em;
+	  	right: 4em;
+	 	width: 7em;
+	  	height: 2em; 
+	  	font-family: 'Open Sans', bold;
+	  	font-size: 350%;
+	  	color: #8f5c49;
+  	
+}
+
+		#caption2 {
+			color: #bda599;
+			margin-left: 35%;
+			align-content: right;
+			position: relative;
+			bottom: 0em;
+			font-family: 'Slabo 27px', serif;
+			text-align: justify;
+  			direction:rtl;
+}
+
+			#panel2 {
+			    margin-left: 40%;
+			    margin-right: 30%;
+			    position: relative; 
+				bottom: 15em;
+			  	right: 32em;
+			 	width: 20em;
+			  	height: 2em; 
+			  	font-size: 120%
+			  	font-family: 'Slabo 27px', serif;
+			  	text-align: justify;
+			  	background: #fbf7f7;
+ 				height: 20em;
+
+
+
+}
+
+#image3 { 
+	margin: auto;
+	padding: 10%;
+	position: relative;
+	bottom: 55em;
+
+}
+
+	#h3 { 
+	   position: relative; 
+		bottom: 11em;
+	  	left: 13.5em;
+	 	width: 8em;
+	  	height: 2em; 
+	  	font-family: 'Open Sans', bold;
+	  	font-size: 350%;
+	  	color: #8f5c49;
+  	
+}
+
+		#caption3 {
+			color: #bda599;
+			margin-right: 65%;
+			font-family: 'Slabo 27px', serif;
+}
+
+			 #panel3 {
+			    margin-left: 40%;
+			    margin-right: 30%;
+			    position: relative; 
+				bottom: 11em;
+			  	left: 15em;
+			 	width: 20em;
+			  	height: 2em; 
+			  	font-size: 120%
+			  	font-family: 'Slabo 27px', serif;
+			  	background: #fbf7f7;
+  				height: 20em;
+
+ }
+  	
+ 
+
+#image4 { 
+	margin: auto;
+	padding: 10%;
+	position: relative;
+	bottom: 70em;
+
+}
+
+ #h4 { 
+   position: relative; 
+	bottom: 9em;
+  	left: 12em;
+ 	width: 7em;
+  	height: 2em; 
+  	font-family: 'Open Sans', bold;
+  	font-size: 350%;
+  	color: #8f5c49;
+  	
+}
+
+#caption4 {
+	color: #bda599;
+	margin-left: 35%;
+	align-content: right;
+	bottom: 3em;
+	left: : 15em;
+	width: 22em;
+	font-family: 'Slabo 27px', serif;
+}
+
+ #panel4 {
+    margin-left: 40%;
+    margin-right: 30%;
+    position: relative; 
+	bottom: 12em;
+  	right: 0em;
+ 	width: 20em;
+  	height: 2em; 
+  	font-size: 120%
+  	font-family: 'Slabo 27px', serif;
+  	background: #fbf7f7;
+  	height: 8em;
+
+}
+
+footer { 
+    display: block;
+    position: relative;
+    bottom: 80em;
+    font-size: 120%
+  	font-family: 'Slabo 27px', serif;
+}
+
+
+
+
